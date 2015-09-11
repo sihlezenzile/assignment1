@@ -3,15 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package zenzile.goodsdelivery.domain;
+package zenzile.goodsdelivery;
 
 /**
  *
  * @author SIHLE
  */
-public abstract class Address {
-    public String getStreet();
-    public String gettSuburb();
-    public String getTown();
-    public String getCode();
+public class App {
+    
 }

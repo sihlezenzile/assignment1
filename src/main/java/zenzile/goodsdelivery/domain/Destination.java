@@ -6,11 +6,13 @@
 
 package zenzile.goodsdelivery.domain;
 
+import java.io.Serializable;
+
 /**
  *
  * @author SIHLE
  */
-public class Destination implements Address{
+public class Destination extends Address implements Serializable{
 
     @Override
     public String getStreet() {
@@ -28,8 +30,8 @@ public class Destination implements Address{
     }
 
     @Override
-    public int getCode() {
-        return 0;
+    public String getCode() {
+        return "";
     }
 
 }
