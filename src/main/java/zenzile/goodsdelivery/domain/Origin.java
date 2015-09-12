@@ -6,11 +6,13 @@
 package zenzile.goodsdelivery.domain;
 
 import java.io.Serializable;
+import javax.persistence.Embeddable;
 
 /**
  *
  * @author SIHLE
  */
+@Embeddable
 public class Origin implements Serializable, Address{
     
     private String sender;

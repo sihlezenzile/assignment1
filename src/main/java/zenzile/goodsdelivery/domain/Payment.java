@@ -9,6 +9,7 @@ package zenzile.goodsdelivery.domain;
  *
  * @author SIHLE
  */
-public class Tariff {
+
+public class Payment {
     
 }

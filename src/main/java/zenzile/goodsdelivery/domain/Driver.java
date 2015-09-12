@@ -94,8 +94,7 @@ public class Driver implements Serializable{
         public Builder id(Long value){
             this.id=value;
             return this;
-        }
-        
+        }        
         public Driver build(){
             return new Driver(this);
         }
