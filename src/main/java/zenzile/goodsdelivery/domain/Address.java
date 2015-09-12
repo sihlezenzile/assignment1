@@ -9,9 +9,9 @@ package zenzile.goodsdelivery.domain;
  *
  * @author SIHLE
  */
-public abstract class Address {
+public interface Address {
     public String getStreet();
-    public String gettSuburb();
+    public String getSuburb();
     public String getTown();
     public String getCode();
 }
